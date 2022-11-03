@@ -123,7 +123,6 @@ class InstallPluginCustomPlugin() : MethodCallHandler, FlutterPlugin, ActivityAw
     }
 
     override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
-        TODO("Not yet implemented")
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
@@ -142,14 +141,11 @@ class InstallPluginCustomPlugin() : MethodCallHandler, FlutterPlugin, ActivityAw
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
-        TODO("Not yet implemented")
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-        TODO("Not yet implemented")
     }
 
     override fun onDetachedFromActivity() {
-        TODO("Not yet implemented")
     }
 }
